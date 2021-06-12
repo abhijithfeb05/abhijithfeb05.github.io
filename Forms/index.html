@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Login" content="login">
+        <title>Login|TestRun</title>
+        <style>
+            header{
+                padding: 5%;
+            }
+            .div {
+            float: left;
+            padding: 10px;
+            }
+            .div.side{
+                width: 35%;
+            }
+            .div.main{
+                padding: 30px 30px;
+                width: 25%;
+                background-color: rgba(255, 255, 255, 0.274);
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer{
+                padding: 5%;
+            }
+            label{
+                font-size: 22px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            }
+            input{
+                width: 100%;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+                font-size: 18px;
+                background-color: #9dfcff00;
+            }
+            input[type="button"]{
+                text-align: center;
+                background-color: rgba(0, 57, 131, 0.527);
+                color: white;
+                padding: 15px 10px;
+                border: none;
+                cursor: pointer;
+            }
+            a{
+                text-decoration: none;
+                color: blue;
+                font-size: 20px;
+            }
+            a:hover{
+                text-decoration: underline;
+                color: rgb(25, 103, 180);
+            }
+
+        </style>
+    </head>
+    <body background="https://drive.google.com/uc?id=1V_vzV_yR_5rpv3iS3rt7i3YqCdeSzEdA">
+        <header></header>
+        <div class="row">
+        <div class="div side"></div>
+        <div class="div main">
+            <form>
+                <label for="Uname">Username</label><br>
+                <input type="text" id="Uname" name="Uname"><br><br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" name="pass"><br><br>
+                <input type="button" id="login" name="loginButton" value="Login"><BR><BR><BR><BR>
+                <a href="Register.html">Create an account</a>
+
+            </form>
+        </div>
+        </div>
+        <footer></footer>
+    </body>
+</html>

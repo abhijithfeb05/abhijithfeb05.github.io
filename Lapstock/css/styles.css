@@ -1,0 +1,35 @@
+body{
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+@media screen and (max-width: 601px) {
+    body{
+        background-attachment: fixed;
+        background-image: url("../images/background_mobile.png");
+    }  
+}
+.spaces{
+    padding-left: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(145, 255, 0, 0.74);
+    font-weight: 900;
+    font-family: cursive;
+    border-bottom: yellowgreen;
+}
+.spaces strong{
+    font-size: 80px;
+}
+@media screen and (min-width: 601px) {
+    .spaces {
+        font-size: 70px;
+        padding-top: 15%;
+        padding-bottom: 22%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .spaces {
+        font-size: 60px;
+        padding-top: 50%;
+        padding-bottom: 55%;
+    }
+}
